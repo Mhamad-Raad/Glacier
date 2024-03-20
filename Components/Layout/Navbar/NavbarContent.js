@@ -10,7 +10,7 @@ const NavbarContent = ({ clickHandler }) => {
     <motion.div
       initial={{ opacity: 0, y: -250 }}
       animate={{ y: -125, opacity: 1 }}
-      exit={{ opacity: 0, y: -250, duration: 10000 }}
+      exit={{ opacity: 0, y: -250, duration: 1000 }}
       transition={{
         ease: 'linear',
         duration: 0.3,
