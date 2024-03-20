@@ -9,7 +9,7 @@ import Logo from '@/assets/Layout/Logo.png';
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center justify-start mt-[-12px] md:px-[74px] md:pt-[42px] md:pb-[25px] bg-[#1588ff] w-full z-10 relative sm:px-[24px] sm:pt-[29px] sm:pb-[11px]">
+    <footer className="flex flex-col items-center justify-start mt-[75px] md:px-[74px] md:pt-[42px] md:pb-[25px] bg-[#1588ff] w-full z-10 relative sm:px-[24px] sm:pt-[29px] sm:pb-[11px]">
       <div className="flex justify-between md:items-center w-full gap-[10px] sm:items-start">
         <div className="flex sm:flex-col md:flex-row">
           <div className="flex flex-col">

@@ -16,7 +16,7 @@ const Services = () => {
           sm:text-[24px] sm:mt-[15px]">
             WHAT WE DO
           </h2>
-          <p className="xl:text-[24px] lg:text-[20px] mt-[5px] md:text-[12px] sm:mt-[5px] sm:text-[12px] sm:w-full">
+          <p className="xl:text-[24px] lg:text-[20px] mt-[5px] md:text-[14px] sm:mt-[5px] sm:text-[12px] sm:w-full">
             At Glacier, our mission is to empower businesses and individuals
           </p>
         </div>

@@ -21,7 +21,7 @@ const ServiceItem = ({number, service}) => {
       >
         {service.title}
       </h2>
-      <p className="xl:text-[16px] lg:text-[14px] text-[#2b3c40] mt-[10px] md:text-[12px] sm:text-[12px] sm:mt-[2px]">
+      <p className="xl:text-[16px] lg:text-[14px] text-[#2b3c40] mt-[10px] md:text-[12px] sm:text-[12px] sm:mt-[2px] md:mt-[8px]">
         {service.desc}
       </p>
     </div>
