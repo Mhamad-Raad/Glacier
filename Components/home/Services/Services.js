@@ -12,11 +12,11 @@ const Services = () => {
               OUR SERVICES
             </h2>
           </div>
-          <h2 className="xl:text-[60px] lg:text-[48px] font-extrabold text-[#333] lg:tracking-[3.2px] mt-[21px] md:text-[36px] md:tracking-[1.8px] sm:tracking-[1.2px] 
+          <h2 className="xl:text-[60px] lg:text-[48px] font-extrabold text-[#333] lg:tracking-[3.2px] mt-[21px] md:text-[36px] md:tracking-[1.8px] sm:tracking-[0.8px] 
           sm:text-[24px] sm:mt-[15px]">
             WHAT WE DO
           </h2>
-          <p className="xl:text-[24px] lg:text-[20px] mt-[5px] md:text-[12px] sm:mt-[5px] sm:text-[10px] sm:w-full">
+          <p className="xl:text-[24px] lg:text-[20px] mt-[5px] md:text-[12px] sm:mt-[5px] sm:text-[12px] sm:w-full">
             At Glacier, our mission is to empower businesses and individuals
           </p>
         </div>

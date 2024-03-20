@@ -11,7 +11,7 @@ const ReadMoreButton = () => {
           sm:gap-[6px]"
     >
       Learn More
-      <HiArrowNarrowRight className="text-[32px]" />
+      <HiArrowNarrowRight className="md:text-[32px]" />
     </button>
   );
 };
