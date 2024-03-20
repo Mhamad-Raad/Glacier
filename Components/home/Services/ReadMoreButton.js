@@ -1,12 +1,8 @@
 'use client';
 
-import useScreenSize from '@/CustomHooks/UseScreenSize';
-
-import ArrowSmallRight from '@/assets/icons/smallScreen/ArrowRight';
-import ArrowRight from '@/assets/icons/ArrowRight';
+import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const ReadMoreButton = () => {
-  const { width } = useScreenSize();
   return (
     <button
       type="button"
@@ -15,7 +11,7 @@ const ReadMoreButton = () => {
           sm:gap-[6px]"
     >
       Learn More
-      {width >= 1024 ? <ArrowRight color={'white'} /> : <ArrowSmallRight />}
+      <HiArrowNarrowRight className="text-[32px]" />
     </button>
   );
 };
