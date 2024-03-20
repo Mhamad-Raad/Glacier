@@ -1,0 +1,17 @@
+const TeamMemeber = ({ person }) => {
+  return (
+    <div className="xl:w-[528px] xl:h-[773px] lg:w-[409px] lg:h-[599px] relative rounded-[20px] flex flex-col justify-end items-center bg-gradient-to-b from-[#7cbdff] to-[#cfeeff] mb-[80px] md:w-[278px] md:h-[407px] sm:h-[271px]">
+      <div className="bg-white md:rounded-[20px] sm:rounded-[12px] xl:w-[422px] xl:h-[127px] lg:w-[328px] lg:h-[98px] flex flex-col xl:py-[18px] lg:py-[26px] absolute md:bottom-[34px] md:w-[222px] md:py-[17px] sm:w-[149px] sm:py-[8px] sm:bottom-[17px]">
+        <h2 className="xl:text-[32px] lg:text-[24px] text-[#2b3c40] text-center font-extrabold tracking-[1.2px] md:text-[16px] sm:text-[12px]">
+          {person.fullName}
+        </h2>
+        <h3 className="xl:text-[24px] text-[20px] text-[#2b3c40] text-center font-medium md:tracking-[1px] md:text-[14px] sm:text-[12px] sm:tracking-[0.6px]">
+          {person.position}
+        </h3>
+      </div>
+      <img className="w-full h-[90%] object-contain" src={person.img} alt={`${person.img}'s image`} />
+    </div>
+  );
+};
+
+export default TeamMemeber;

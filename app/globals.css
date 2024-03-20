@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Poppins&display=swap:wght@400;600;700;800;900&display=swap&Playfair+Display:wght@600&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body::-webkit-scrollbar:horizontal {
+  height: 0;
+  width: 0;
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb:horizontal {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+a, 
+button,
+input,
+textarea,
+select {
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.swiper-pagination > .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: rgb(235, 235, 235);
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-pagination > .swiper-pagination-bullet-active {
+  background-color: #2b3c40;
+}
+
+.special > .swiper-pagination>.swiper-pagination-bullet {
+  opacity: 1;
+  background-color: #d9d9d9;
+  width: 38px;
+  height: 8px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.special> .swiper-pagination>.swiper-pagination-bullet-active {
+  background-color: #2b3c40;
+  width: 106px;
+}
+
+:root {
+  --pagination-color: #1588ff;
+  --pagination-font-weight: bold;
+  --pagination-font-size: 16px;
+}
+
+.pag-nav a {
+  color: white !important;
+  background: #1588ff !important;
+}
+
+.pag-nav span {
+  color: white !important;
+  background: #1588ff !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 15px !important;
+  width: 51px !important;
+  height: 51px !important;
+  padding: 0 !important;
+  border-radius: 15px !important;
+}
+
+.pag-item a { 
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 15px !important;
+  width: 51px !important;
+  height: 51px !important;
+  padding: 0 !important;
+  border-radius: 15px !important;
+}
+
+.pag {
+  gap: 17px;
+  justify-content: center !important;
+  margin-top: 53px !important;
+}
+
+
+.special-scroll-bar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.special-scroll-bar::-webkit-scrollbar-track {
+  background: none;
+}
+  
+.special-scroll-bar::-webkit-scrollbar-thumb {
+  background: #1588FF;
+  border-radius: 10px;
+}
+
+.react-tel-input > input {
+  height: 41px !important;
+  width: 100% !important;
+  padding-left: 75px !important;
+  border-radius: 8px !important;
+}
+
+.react-tel-input > .flag-dropdown {
+  width: 72px !important;
+  background-color: white !important;
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-tel-input .selected-flag {
+  display: flex;
+  width: 100% !important;
+  justify-content: center !important;
+  margin-top: 3px !important;
+  margin-left: -10px !important;
+  align-items: center !important;
+  padding-left: 0 !important;
+}
+
+.react-tel-input .selected-flag .arrow {
+  right: 0px !important;
+  margin-left: 7px !important;
+}
+
+.react-tel-input .selected-flag .flag {
+  position: relative !important;
+  top: 0 !important;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+  background-color: transparent !important;
+}
+
+@media only screen and (max-width: 1023px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
