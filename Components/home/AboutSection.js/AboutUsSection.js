@@ -25,10 +25,10 @@ const AboutUsSection = () => {
         <h2 className="text-white font-bold xl:text-[32px] lg:text-[24px] md:text-[12px] sm:text-[10px] ">ABOUT US</h2>
         <div className="xl:w-[99px] xl:h-[6px] lg:w-[74px] h-[4px] bg-white rounded-lg md:w-[43px] sm:w-[23px] sm:h-[2px]" />
       </div>
-      <h2 className="xl:text-[78px] lg:text-[64px] text-white font-extrabold lg:tracking-[3.2px] lg:mt-[34px] md:text-[36px] md:tracking-[1.8px] md:mt-[19px] sm:text-[24px] sm:tracking-[1.2px] sm:mt-[11px]">
+      <h2 className="xl:text-[78px] lg:text-[64px] text-white font-extrabold lg:tracking-[3.2px] lg:mt-[34px] md:text-[36px] md:tracking-[1.8px] md:mt-[19px] sm:text-[24px] sm:tracking-[1.2px] sm:mt-[5px]">
         KNOW WHO WE ARE
       </h2>
-      <p className="xl:text-[30px] lg:text-[24px] text-white text-center xl:w-[1000px] lg:w-[80%] font-Poppins mt-[30px] md:text-[14px] md:w-[53%] md:mt-[25px] sm:text-[10px] sm:w-[75%] sm:mt-[11px]">
+      <p className="xl:text-[30px] lg:text-[24px] text-white text-center xl:w-[1000px] lg:w-[80%] font-Poppins mt-[30px] md:text-[14px] md:w-[53%] md:mt-[25px] sm:text-[10px] sm:w-[75%] sm:mt-[7px]">
         We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build
       </p>
       <ReadmoreButton />
