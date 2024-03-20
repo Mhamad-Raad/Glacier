@@ -5,7 +5,7 @@ const DesktopNav = () => {
   const pathname = usePathname();
 
   return (
-    <div className="flex items-center justify-end lg:gap-[64px] md:gap-[40px] w-full">
+    <div className="flex items-center justify-end lg:gap-[50px] w-full">
       <Link
         className={`xl:text-[20px] lg:text-[16px] md:text-[14px] text-[#2b3c40] font-[600] ${
           pathname === '/' ? 'pb-[5px] border-b-[2px] border-[#fed630]' : ''
