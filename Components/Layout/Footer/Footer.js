@@ -9,7 +9,7 @@ import Logo from '@/assets/Layout/Logo.png';
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center justify-start mt-[75px] md:px-[74px] md:pt-[42px] md:pb-[25px] bg-[#1588ff] w-full z-10 relative sm:px-[24px] sm:pt-[29px] sm:pb-[11px]">
+    <footer className="flex flex-col items-center justify-start mt-[75px] md:px-[74px] md:pt-[42px] md:pb-[25px] bg-[#1588ff] w-full z-10 relative sm:px-[16px] sm:pt-[29px] sm:pb-[11px] overflow-hidden">
       <div className="flex justify-between md:items-center w-full gap-[10px] sm:items-start">
         <div className="flex sm:flex-col md:flex-row">
           <div className="flex flex-col">
@@ -20,22 +20,24 @@ const Footer = () => {
               At Glacier, our mission is to empower businesses and individuals
             </p>
           </div>
-          <div className="flex sm:mt-[19px] sm:gap-[75px] md:ml-[55px]">
+          <div className="flex sm:mt-[19px] sm:gap-[25px] md:ml-[55px]">
             <div className="flex flex-col lg:gap-[10px] md:gap-[6px] md:max-w-[300px]">
               <h3 className="text-white font-[500] md:text-[14px] xl:text-[24px] sm:text-[10px]">OUR CONTACTS</h3>
-              <p className="text-white xl:text-[20px] md:text-[12px] sm:text-[10px]">Email: Info@glaciermgt.com</p>
+              <p className="text-white xl:text-[20px] md:text-[12px] sm:text-[10px]">Email: hamaraad883@gmail.com</p>
               <p className="text-white xl:text-[20px] md:text-[12px] sm:text-[10px]">
-                Address: Boulevard Plaza, Tower 1 - Downtown Dubai - Dubai - United Arab Emirates
+                Address: Remote, Kurdistan, Sulaimaniyah
               </p>
-              <p className="text-white xl:text-[20px] md:text-[12px] sm:text-[10px]">Phone: (+971) 563747373</p>
+              <p className="text-white xl:text-[20px] md:text-[12px] sm:text-[10px]">Phone: (+964) 770 184 4913</p>
               <div className="flex gap-[15px] sm:mt-[9px]">
                 <Facebook />
                 <Twitter />
                 <Instagram />
               </div>
             </div>
-            <div className="flex flex-col lg:gap-[10px] md:gap-[6px]">
-              <h3 className="text-white font-[500] xl:text-[24px] md:text-[14px] sm:text-[10px] lg:text-[18px]">Links</h3>
+            <div className="flex flex-col lg:gap-[10px] md:gap-[6px] font-black">
+              <h3 className="text-white font-[500] xl:text-[24px] md:text-[14px] sm:text-[10px] lg:text-[18px]">
+                Links
+              </h3>
               <Link href="/" className="text-white xl:text-[20px] lg:text-[16px] md:text-[14px] sm:text-[10px]">
                 Home
               </Link>
@@ -51,12 +53,14 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center bg-white xl:w-[225px] xl:h-[225px] lg:w-[200px] lg:h-[200px] rounded-full md:w-[104px] md:h-[104px] sm:w-[60px] sm:h-[60px]">
-          <Image
-            alt=""
-            className="lg:w-2/3 lg:h-2/3 md:w-[70%] md:h-[70%] xl:w-[75%] xl:h-[75%] sm:w-[60%] sm:h-[60%]"
-            src={Logo}
-          />
+        <div>
+          <div className="flex justify-center items-center bg-white xl:w-[225px] xl:h-[225px] lg:w-[200px] lg:h-[200px] rounded-full md:w-[104px] md:h-[104px] sm:w-[60px] sm:h-[60px]">
+            <Image
+              alt=""
+              className="lg:w-2/3 lg:h-2/3 md:w-[70%] md:h-[70%] xl:w-[75%] xl:h-[75%] sm:w-[60%] sm:h-[60%]"
+              src={Logo}
+            />
+          </div>
         </div>
       </div>
       <div className="w-full md:mt-[50px] sm:mt-[20px]">
