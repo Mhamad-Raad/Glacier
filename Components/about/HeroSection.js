@@ -23,12 +23,9 @@ const HeroSection = () => {
           </h1>
           <TitleUnderline className="lg:ml-[-10px] xl:ml-[290px] md:ml-[-60px] sm:ml-[-45px]" />
         </div>
-        <p className="lg:mt-[87px] xl:text-[28px] lg:text-[20px] md:text-[14px] md:mt-[40px] sm:mt-[23px] sm:text-[10px]">
+        <p className="lg:mt-[87px] xl:text-[28px] lg:text-[20px] md:text-[14px] md:mt-[40px] sm:mt-[16px] sm:text-[10px]">
           Glacier Capital, based in Dubai, is a leading force in digital asset management. Founded in 2023, we quickly
-          became crypto asset management leaders, driven by innovation, integrity, and transparency. We operate under
-          Dubai's strict Virtual Assets Regulatory Authority (VARA) oversight, holding VARA's pre-approval, a testament
-          to our commitment to compliance. Our goal is clear: to unlock digital economy opportunities for our clients,
-          guided by our belief in the transformative potential of cryptocurrencies and blockchain technology.
+          became crypto asset management leaders, driven by innovation, integrity, and transparency.
         </p>
       </div>
       <div className="xl:w-[524px] xl:h-[600px] lg:w-[408px] lg:h-[453px] relative bg-gradient-to-br from-[#1588ff] to-[#cfeeff] md:rounded-tr-[175px] md:rounded-bl-[175px] md:mr-[31px] md:h-[400px] md:w-[350px] sm:w-[150px] sm:h-[160px] sm:rounded-tr-[60px] sm:rounded-bl-[60px] sm:mr-[20px] lg:mt-[-125px] xl:mt-[-250px]">
