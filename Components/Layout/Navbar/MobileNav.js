@@ -5,7 +5,7 @@ import SocialArrow from '@/assets/Layout/SocialArrow';
 
 const MobileNav = ({ clickHandler }) => {
   return (
-    <div className="md:pt-[45px] md:pl-[47px] sm:pt-[25px] sm:p-[20px] flex flex-col items-between justify-between h-[90%]">
+    <div className="md:pt-[45px] sm:pt-[25px] sm:p-[20px] flex flex-col items-between justify-between h-[90%]">
       <div className="flex flex-col">
         <div className="flex items-center justify-between">
           <h2 className="md:text-[15px] sm:text-[10px] font-[500] md:tracking-[0.7px] uppercase">
