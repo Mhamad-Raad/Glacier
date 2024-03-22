@@ -34,7 +34,7 @@ const Form = () => {
       </label>
       <input
         className="w-full xl:h-[53px] h-[40px] border border-[#00000033] rounded-[8px] px-[27px] py-[5px] mt-[12px] sm:text-[14px]"
-        placeholder="Lawand@dohrni.com"
+        placeholder="Lawand@gmail.com"
         type="text"
       />
       <label className="xl:text-[21px] sm:text-[14px] text-[#2b3c40] font-bold md:mt-[30px] sm:mt-[19px]">Email</label>
