@@ -1,14 +1,6 @@
-const Paragraph1 = `By accessing and utilizing the services provided by Capital Management through this website, you expressly
-agree to abide by the terms and conditions outlined in this agreement. This agreement encompasses your
-responsible and lawful use of the website's content and features, understanding that all intellectual property
-rights belong to Capital Management. It is vital to acknowledge that the website's content is for
-informational purposes only and does not constitute financial advice. Capital Management is not liable for any
-decisions made based on this information. Your continued use of the website is contingent upon your acceptance
-of any future modifications to this agreement. `;
 
-const Paragraph2 = `Furthermore, you acknowledge that any links to third-party websites found on our platform are provided solely for your convenience and do not indicate our endorsement of their content. We are not responsible for the accuracy or privacy practices of these external sites. By using
-this website, you consent to the collection, use, and protection of your personal information as outlined in
-our Privacy Policy. In case of any questions or concerns regarding this agreement or our services, you may
-reach out to us at [Contact Information].`;
+const Paragraph1 = `Consequat minim est quis sunt. Adipisicing ipsum exercitation velit sit voluptate et irure enim ullamco mollit sit veniam amet. Sit pariatur pariatur qui adipisicing nisi. Aliqua do aliqua esse anim excepteur fugiat irure cupidatat fugiat, Dolor consectetur cillum incididunt est velit sint fugiat ad magna. Minim esse aliquip et elit sint incididunt cillum ut dolore in tempor duis tempor eiusmod. Eiusmod consequat irure sit Lorem cupidatat Lorem voluptate non veniam consectetur Lorem. Cupidatat nostrud culpa pariatur ex voluptate fugiat fugiat proident magna do ullamco voluptate occaecat. Eu ad elit proident ad. Duis id mollit consectetur pariatur nostrud ex.`;
+
+const Paragraph2 = `Anim ad ullamco mollit duis elit. Ad magna quis aliqua eiusmod velit reprehenderit commodo anim esse enim. Voluptate eu cupidatat proident pariatur dolore sint exercitation laboris excepteur dolor. Sint laborum culpa nulla ullamco cupidatat. Nostrud occaecat et voluptate enim in enim incididunt fugiat. Veniam deserunt ullamco dolor dolor esse ullamco ut mollit do velit cillum fugiat.Cillum exercitation mollit aliqua ea sint. Excepteur ea officia officia nostrud et. Duis aute nostrud amet veniam aute aliquip nostrud aute. Proident dolore velit dolor officia fugiat deserunt. Ipsum veniam sint veniam quis mollit nisi aliqua aliqua tempor nisi tempor. Eu quis veniam irure officia nostrud occaecat duis cupidatat cupidatat.`;
 
 export { Paragraph1, Paragraph2 };
