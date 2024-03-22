@@ -18,10 +18,6 @@ const Hero = () => {
         <p className="text-white xl:text-[24px] lg:text-[18px] tracking-[0.9px] md:mt-[10px] md:text-[14px] sm:text-[12px] sm:text-center sm:mt-1">
           Everything you need to know about Glacier
         </p>
-        <div className="flex items-center sm:justify-center md:justify-start bg-white rounded-[15px] md:pl-[26px] md:py-[13px] sm:gap-[12px] md:gap-[22px] md:mt-[33px] sm:mt-[17px] xl:w-[590px] lg:w-[460px] md:w-[328px] sm:w-[191px] sm:h-[34px] md:h-[47px]">
-          <SearchIcon className="mt-[2px]" />
-          <input placeHolder="Search Here" className='sm:w-[100px] sm:text-[14px] md: text-[18px]'/>
-        </div>
       </div>
       <Logo className="scale-x-[-1]" contact={false} />
     </section>
