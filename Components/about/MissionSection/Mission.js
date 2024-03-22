@@ -8,15 +8,11 @@ const Mission = () => {
           <div className="md:h-[4px] xl:w-[94px] lg:w-[74px] bg-[#1588ff] rounded-lg md:w-[51px] sm:w-[23px] sm:h-[3px]" />
           <h2 className="xl:text-[28px] md:text-[18px] font-[700] text-[#2b3c40] sm:text-[10px]">Our Mission</h2>
         </div>
-        <h2 className="xl:text-[58px] lg:text-[48px] font-extrabold text-[#333] md:tracking-[3.2px] mt-[10px] md:text-[32px] sm:text-[20px] sm:tracking-[1px]">
-          Navigating Digital Wealth with Glacier Capital
+        <h2 className="xl:text-[58px] lg:text-[40px] font-extrabold text-[#333] md:tracking-[3.2px] mt-[10px] md:text-[28px] sm:text-[20px] sm:tracking-[1px]">
+          Navigating Digital Wealth
         </h2>
         <p className="xl:text-[24px] lg:text-[20px] mt-[20px] xl:w-[80%] md:w-[86%] md:text-[15px] sm:text-[10px] sm:w-full">
-          Glacier Capital's mission is to lead the way in digital asset management through innovation, security, and
-          client-centric solutions. We are dedicated to pioneering new approaches, ensuring the highest standards of
-          security and compliance, and tailoring strategies to meet the unique goals of each client. Our global
-          perspective, combined with local expertise, allows us to provide comprehensive solutions for both local and
-          global markets.
+          We are a global team of experts who are passionate about helping our clients navigate the complexities of digital wealth. Our mission is to provide innovative solutions that are tailored to the unique needs of each client, while ensuring compliance with the highest standards of security and privacy.
         </p>
       </div>
 
