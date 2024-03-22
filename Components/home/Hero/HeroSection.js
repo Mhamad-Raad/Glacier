@@ -15,8 +15,7 @@ const HeroSection = () => {
           GLACIER
         </h1>
         <p className="xl:w-[55%] lg:w-[70%x] xl:text-[26px] lg:text-[20px] text-center text-black font-medium tracking-[0.9px] z-10 xl:mt-[50px] lg:mt-[25px] md:text-[15px] md:mt-[40px] md:w-[60%] sm:w-[65%] sm:text-[10px] sm:tracking-[0.5px] sm:mt-[5px]">
-          Exploring Financial Horizons: Glacier Capital expertise in wealth preservation and enhancement in the digital
-          asset space
+          A glacier is a large, perennial mass of ice that forms on land and moves under the influence of gravity.
         </p>
         <ScrollDownButton />
       </div>

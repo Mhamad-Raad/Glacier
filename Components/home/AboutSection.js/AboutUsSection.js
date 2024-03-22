@@ -29,7 +29,7 @@ const AboutUsSection = () => {
         KNOW WHO WE ARE
       </h2>
       <p className="xl:text-[30px] lg:text-[24px] text-white text-center xl:w-[1000px] lg:w-[80%] font-Poppins mt-[30px] md:text-[14px] md:w-[53%] md:mt-[25px] sm:text-[10px] sm:w-[75%] sm:mt-[7px]">
-        We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build
+        We are a team of talented and creative individuals who love to bring your ideas to life.
       </p>
       <ReadmoreButton />
     </section>
